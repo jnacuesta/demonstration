@@ -9,28 +9,18 @@
  */
 define([], function() {
 
-    function pageInit(context) {
-        
-    }
-
-    function saveRecord(context) {
-        
-    }
-
-    function validateField(context) {
-        
-    }
-
-    function fieldChanged(context) {
-        
-    }
-
    
 
+    function validateLine(context) {
+        
+    }
+
+    function sublistChanged(context) {
+        
+    }
+
     return {
-        pageInit: pageInit,
-        saveRecord: saveRecord,
-        validateField: validateField,
-        fieldChanged: fieldChanged
+        validateLine: validateLine,
+        sublistChanged: sublistChanged
     };
 });
